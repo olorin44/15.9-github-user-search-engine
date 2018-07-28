@@ -39,7 +39,7 @@ class App extends React.Component {
 
 class UserList extends React.Component {
 	get users() {
-		return this.props.users.map(uder => <User key={user.id} user={user}/>);
+		return this.props.users.map(user => <User key={user.id} user={user}/>);
 	}
 
 	render() {
